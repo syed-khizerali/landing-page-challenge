@@ -13,5 +13,103 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+  <style>
+    footer {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: left;
+      font-family: Arial, sans-serif;
+    }
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    .footer-section {
+      margin: 10px;
+    }
+    .footer-section h3 {
+      color: #ff4500;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .footer-section a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+    .social-icons img {
+      width: 20px;
+      margin-right: 10px;
+    }
+    .newsletter {
+      display: flex;
+      align-items: center;
+    }
+    .newsletter input {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+    .newsletter button {
+      background-color: #ff4500;
+      color: #ffffff;
+      border: none;
+      padding: 5px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .newsletter button:hover {
+      background-color: #e03e00;
+    }
+    .copyright {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Manage</h3>
+        <a href="#">Home</a>
+        <a href="#">Pricing</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="footer-section">
+        <h3>Careers</h3>
+        <a href="#">Community</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer-section newsletter">
+        <input type="email" placeholder="Updates in your inbox...">
+        <button>Go</button>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+      <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+      <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+    </div>
+    <div class="copyright">
+      Copyright 2020. All Rights Reserved
+    </div>
+  </footer>
+</body>
 </html>
+
